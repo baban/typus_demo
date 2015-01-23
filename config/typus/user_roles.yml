@@ -1,4 +1,6 @@
 # Use the README file as a reference to customize settings.
 
 admin:
-  User: create, read, update, delete
+  # userテーブルの項目に、権限に関わらずカスタマイズ出来ていいカラムが無いので
+  # updateのカラムは削っておく
+  User: create, read, delete

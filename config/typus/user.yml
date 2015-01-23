@@ -2,7 +2,12 @@
 
 User:
   fields:
-    default: email, encrypted_password, reset_password_token, reset_password_sent_at, sign_in_count, current_sign_in_at, last_sign_in_at, current_sign_in_ip, last_sign_in_ip
-    form: email, encrypted_password, reset_password_token, reset_password_sent_at, sign_in_count, current_sign_in_at, last_sign_in_at, current_sign_in_ip, last_sign_in_ip
-  relationships: 
+    default: email, encrypted_password, reset_password_token, reset_password_sent_at, current_sign_in_at, last_sign_in_at, current_sign_in_ip, last_sign_in_ip, sign_in_count
+    # 一覧ページで表示するユーザーの項目をカスタマイズします
+    list: id, email, current_sign_in_at, sign_in_count
+    # updateできていいカラムがないのでここはいらないのだけど、あえてここに置いておく
+    form: email, current_sign_in_at, last_sign_in_at
+  relationships:
+  # この項目があると、emailでユーザー検索をできるようになるよう、検索バーを出します
+  search: email
   application: Application

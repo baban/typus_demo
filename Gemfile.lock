@@ -1,7 +1,6 @@
 GIT
   remote: https://github.com/typus/typus.git
-  revision: 0e70667e39fca5f09a86800b3ea2bff90a266fbe
-  ref: 0e70667e39fca5f09a86800b3ea2bff90a266fbe
+  revision: bea493b4e33788babef9d7e21dddb8889ebc3965
   specs:
     typus (4.0.0.beta1)
       bcrypt (~> 3.1.5)
