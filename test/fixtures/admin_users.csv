@@ -1,0 +1,3 @@
+id,first_name,last_name,role,email,status,token,password_digest,preferences,created_at,updated_at
+1,松原,正直,admin,admin@test.jp,true,c1801a0b37e8-21109a41bcce,$2a$10$qNBYVj3iKI6n8ycvmXsEtupPI4OKlV.1DHcBDtAPl3MjwEXIZC5ZO,"{:locale=>""en""}",2015-01-22 10:30:31 UTC,2015-01-22 10:30:59 UTC
+2,エディタ,エディタ,editor,editor@test.jp,true,f8ca8d251f04-e29622f78529,$2a$10$9Gx7mKLfAQW5V1pMLfxMw.cEpGGQzZtPZHqTjQWu1w0u.IJZs1r5q,"{:locale=>""en""}",2015-01-26 10:25:45 UTC,2015-01-26 10:25:45 UTC

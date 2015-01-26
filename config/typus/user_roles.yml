@@ -4,3 +4,8 @@ admin:
   # userテーブルの項目に、権限に関わらずカスタマイズ出来ていいカラムが無いので
   # updateのカラムは削っておく
   User: create, read, delete
+
+editor:
+  # userテーブルの項目に、権限に関わらずカスタマイズ出来ていいカラムが無いので
+  # updateのカラムは削っておく
+  User: read
