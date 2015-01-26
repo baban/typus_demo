@@ -1,3 +1,6 @@
+# encoding: utf-8
+#
+
 Typus::Resources.setup do |config|
 
   # Defines default_action_on_item.
@@ -22,3 +25,16 @@ Typus::Resources.setup do |config|
   # config.start_year = nil
 
 end
+
+=begin
+module Typus
+  module I18n
+    class<< self
+      alias :old_available_locales :available_locales
+      def available_locales
+        self.old_available_locales.merge( "日本語" => "ja" )
+      end
+    end
+  end
+end
+=end
