@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/typus/typus.git
-  revision: bea493b4e33788babef9d7e21dddb8889ebc3965
+  revision: 0b3093ba4462b1c42f94daeb943f25198e675dea
   specs:
     typus (4.0.0.beta1)
       bcrypt (~> 3.1.5)
@@ -36,7 +36,7 @@ GEM
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
     arel (5.0.1.20140414130214)
-    bcrypt (3.1.9)
+    bcrypt (3.1.10)
     builder (3.2.2)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -106,7 +106,7 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sprockets-rails (2.2.2)
+    sprockets-rails (2.2.4)
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (>= 2.8, < 4.0)
