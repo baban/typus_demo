@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get '/admin/statistics/users' => "admin/statistics#users"
+  get '/statistics/users' => "statistics#users"
 
   devise_for :users
 
