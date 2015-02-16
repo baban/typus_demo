@@ -1,6 +1,7 @@
 GIT
   remote: https://github.com/typus/typus.git
-  revision: 0b3093ba4462b1c42f94daeb943f25198e675dea
+  revision: 0e70667e39fca5f09a86800b3ea2bff90a266fbe
+  ref: 0e70667e39fca5f09a86800b3ea2bff90a266fbe
   specs:
     typus (4.0.0.beta1)
       bcrypt (~> 3.1.5)
@@ -44,15 +45,16 @@ GEM
     coffee-script (2.3.0)
       coffee-script-source
       execjs
-    coffee-script-source (1.8.0)
-    devise (3.3.0)
+    coffee-script-source (1.9.0)
+    devise (3.4.1)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
+      responders
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     erubis (2.7.0)
-    execjs (2.2.2)
+    execjs (2.3.0)
     flextures (3.1.1)
     hike (1.2.3)
     i18n (0.7.0)
@@ -91,6 +93,8 @@ GEM
     rake (10.4.2)
     rdoc (4.2.0)
       json (~> 1.4)
+    responders (1.1.2)
+      railties (>= 3.2, < 4.2)
     sass (3.2.19)
     sass-rails (4.0.5)
       railties (>= 4.0.0, < 5.0)
@@ -100,7 +104,7 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    spring (1.2.0)
+    spring (1.3.1)
     sprockets (2.12.3)
       hike (~> 1.2)
       multi_json (~> 1.0)

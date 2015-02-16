@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.9'
 # Use sqlite3 as the database for Active Record
@@ -14,9 +13,6 @@ gem 'coffee-rails', '~> 4.0.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer',  platforms: :ruby
 
-# rails4.2向けの動くバージョンが固定で指定されている
-# typusはrailsの最新版向けのサポートが不安定なのでバージョナップ時には動作チェックを怠らないこと
-gem "typus", git:"https://github.com/typus/typus.git"
 
 gem 'flextures', "3.1.1" # csvからデータを読み込み、書き出し
 gem 'devise'
@@ -44,3 +40,10 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
+# rails4.2向けの動くバージョンが固定で指定されている
+# typusはrailsの最新版向けのサポートが不安定なのでバージョナップ時には動作チェックを怠らないこと
+#gem "typus", git:"https://github.com/typus/typus.git"
+#gem "typus", git:"https://github.com/baban/typus.git", branch:"model_generator"
+gem "typus", git:"https://github.com/typus/typus.git", ref: "0e70667e39fca5f09a86800b3ea2bff90a266fbe"
