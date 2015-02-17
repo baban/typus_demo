@@ -3,7 +3,7 @@
 admin:
   # userテーブルの項目に、権限に関わらずカスタマイズ出来ていいカラムが無いので
   # updateのカラムは削っておく
-  User: create, read, delete
+  User: create, read, delete, update
 
 editor:
   # ユーザー情報に関しては、基本的に検索と閲覧だけ出来れば良いので

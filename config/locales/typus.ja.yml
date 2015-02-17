@@ -48,9 +48,9 @@ ja:
       mark_unpublished: "Mark as unpublished"
 
     flash:
-      update_success: "%{model} successfully updated."
-      create_success: "%{model} successfully created."
-      delete_success: "%{model} successfully deleted."
+      update_success: "%{model} のデータを更新しました。"
+      create_success: "%{model} のデータを作成しました。"
+      delete_success: "%{model} のデータを削除しました。"
       wipe_success: "%{resource} has been successfully removed from trash."
       bulk_delete_success:
         one: "Successfully deleted entry."
@@ -67,8 +67,8 @@ ja:
 
     errors:
       intro:
-        one: "An error prohibited this page from being saved:"
-        other: "%{count} errors prohibited this page from being saved:"
+        one: "データの保存に失敗しました:"
+        other: "%{count} 件のエラーが発生しました:"
 
     dashboard:
       title: "ダッシュボード"
