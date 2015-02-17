@@ -7,9 +7,6 @@ User:
     list: id, email, current_sign_in_at, sign_in_count
     # updateできていいカラムがないのでここはいらないのだけど、あえてここに置いておく
     form: email, current_sign_in_at, last_sign_in_at
-    csv: email
-  options:
-    export: csv, xml, json
   relationships:
   # この項目があると、emailでユーザー検索をできるようになるよう、検索バーを出します
   search: email
