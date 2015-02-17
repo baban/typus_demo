@@ -90,7 +90,7 @@ ja:
       edit:
         title: "編集 '%{label}'"
       show:
-        title: "表示 for '%{label}'"
+        title: "表示 '%{label}'"
       edited_recently:
         title: "Edited recently"
       destroy:
@@ -105,10 +105,10 @@ ja:
       next: "Next &rarr;"
 
     sidebar:
-      filters: "Filters"
+      filters: "フィルター"
       scopes: "Scopes"
-      export: "Export"
-      entry: "Entry"
+      export: "エクスポート"
+      entry: "操作"
       actions: "アクション"
       view_site: "View site"
       search: "検索"
