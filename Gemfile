@@ -45,5 +45,5 @@ gem 'spring',        group: :development
 # rails4.2向けの動くバージョンが固定で指定されている
 # typusはrailsの最新版向けのサポートが不安定なのでバージョナップ時には動作チェックを怠らないこと
 #gem "typus", git:"https://github.com/typus/typus.git"
-#gem "typus", git:"https://github.com/baban/typus.git", branch:"model_generator"
-gem "typus", git:"https://github.com/typus/typus.git", ref: "0e70667e39fca5f09a86800b3ea2bff90a266fbe"
+gem "typus", git:"https://github.com/baban/typus.git", branch:"model_generator"
+#gem "typus", git:"https://github.com/typus/typus.git", ref: "0e70667e39fca5f09a86800b3ea2bff90a266fbe"
